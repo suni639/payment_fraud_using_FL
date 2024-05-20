@@ -18,4 +18,4 @@ env/
 .vscode/
 
 # Ignore the dataset directory and file
-/payment_fraud_using_FL/payment_fraud_dataset.csv
+payment_fraud_dataset.csv
