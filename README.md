@@ -99,7 +99,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 3. Install the required dependencies using the provided requirements.txt file:
     ```powershell
     pip install -r requirements.txt
-4. Ensure the dataset is located at the specified path: C:\Users\sunil\OneDrive\Documents\Coding\Projects\payment_fraud_using_FL\payment_fraud_dataset.csv.
+4. Ensure the dataset is located at the specified path: payment_fraud_using_FL\payment_fraud_dataset.csv.
 5. Run the main script to start the federated learning process:
     ```powershell
     python main.py
