@@ -60,8 +60,8 @@ The dataset is loaded, preprocessed (e.g., scaled), and split into parts for eac
 
 ### Model Definition
 Defines the Keras model architecture used by each client.
-   ```python
-   from model_definition import create_keras_model
+    ```python
+    from model_definition import create_keras_model
 
     input_shape = features.shape[1]
     model = create_keras_model(input_shape)
