@@ -1,8 +1,15 @@
 # payment_fraud_using_FL
-This project demonstrates the implementation of a decentralized federated learning model for fraud detection. The dataset is split across 20 clients, each of which trains a local model on their data. The models are then aggregated in a decentralized manner to form a global model.
+This project aims to demonstrate the implementation of a decentralized federated learning model for fraud detection. The dataset is split across 20 clients, each of which trains a local model on their data. The models are then aggregated in a decentralized manner to form a global model.
 
 ## NOTE:
-I'm encountering issues due to memory allocation failures. I'll likely have to simplify the models to get a reasonable and more manageable output. 
+When executing main.py I encoutered several issues, mainly due to memory allocation failures. To rectify and successfully execute the federated learning project using neural networks, the model will need to be simplified. This can be carried out by a combination of:
+- reducing the number of neurons and layers
+- using smaller batch sizes to reduce memory and compute load
+- limiting the number of epochs thereby reducing training time
+- using lighter weight frameworks, such as TensorFlow Lite
+- training of the subset of the dataset as the original is quite large (over 6M rows)
+
+As the aim of the project was to gain a better understanding of the mechanics behind federated learning, I will simplify the node models to use **Logistic Regression** instead of **neural networks**.   
 
 ## Project Structure
    
